@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer_bcdetect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "launch_servers": "node launch_servers.js",
+    "launch_notifier": "node notifications_listener.js",
+    "start": "node puppeteer_test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.6.0"
+  }
+}
