@@ -20,19 +20,16 @@ and launch_notifier will register to the websocket and print the JSON when an is
 which will launch BCDetect and the script.
 
 And example of script content after launching the BCDetect preamble:
-
+```
 	await page.goto("http://www.domxss.com/domxss/01_Basics/00_simple_noHead.html?13133862");
 // You should see a notification in the first shell
-
+```
+```
 // How to call the fuzzer via script:
     await page.goto("http://www.domxss.com/domxss/01_Basics/04_script_src.html?2113009555");
     await page.evaluate('_rw_.fuzzPage();');
-    
+    ```
+    ````
 // to close the BCDetect browser
 driver.quit();
-
-
-
-
-
-	
+	```
