@@ -6,11 +6,14 @@
   "scripts": {
     "launch_servers": "node launch_servers.js",
     "launch_notifier": "node notifications_listener.js",
+    "load_script": "node load_script_puppeteer.js \"$@\"",
     "start": "node puppeteer_test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chrome-launcher": "^0.10.2",
+    "chrome-remote-interface": "^0.26.1",
     "puppeteer": "^1.6.0"
   }
 }
