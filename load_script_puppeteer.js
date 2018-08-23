@@ -11,7 +11,7 @@ if(!process.argv[2]){
  console.error(`Usage:\nnode ${process.argv[1]} path/to/script.js\nExample: node ${process.argv[1]} scripts/script_goto.js`);
  process.exit(); 
 } else{
-	var script_content = fs.readFileSync(script_filename)+'';
+	var script_content = fs.readFileSync(process.argv[2])+'';
 }
 if (!bcconfig.bcdetect_home_dir)
   bcconfig.bcdetect_home_dir = require('./lib/bcdetect-utils.js').getBCHomePath();
