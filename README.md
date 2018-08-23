@@ -22,7 +22,6 @@ and launch_notifier will register to the websocket and print the JSON when an is
 
 which will launch BCDetect and the script.
 
-<<<<<<< HEAD
 4.1 As an alternative to 4., to load a REPL interface you can launch:
 
 ```
