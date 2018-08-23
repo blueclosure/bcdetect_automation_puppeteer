@@ -1,0 +1,1 @@
+await page.goto('http://www.domxss.com/domxss/01_Basics/00_simple_noHead.html?13133862');
